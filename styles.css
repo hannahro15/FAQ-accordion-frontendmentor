@@ -4,13 +4,13 @@ html, body {
     overflow-x: hidden;  
     background-color: hsl(275, 100%, 97%) !important;
     font-size: 16px;
-
   }
 
   .container {
     position: relative;
     width: 1000%;
     z-index: 1;
+    min-height: 50vw;
   }
   
   h1 {
@@ -34,12 +34,16 @@ html, body {
   }
 
   .card {
-    width: 70%; 
-    max-width: 900px;  
+    max-width: 500px; 
+    height: auto; 
     margin: 0 auto;  
     padding: 20px;  
     background-color: white;
     border-radius: 10px;
     position: absolute;
+  }
+
+  footer {
+    margin: 0;
   }
   
