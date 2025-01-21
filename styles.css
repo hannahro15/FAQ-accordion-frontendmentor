@@ -15,6 +15,11 @@ html, body {
   .accordion-header {
     background-color: white !important;
   }
+
+  .accordion-button::after {
+    display: none; 
+    float: right;
+  }
   
   .banner {
     width: 100%;
